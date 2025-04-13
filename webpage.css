@@ -165,9 +165,26 @@ header{
     transition: .5s;
 }
 
-.wrapper .icon-close:hover {
+/* .wrapper .icon-close:hover { 
     background-color: silver;
     color: rgb(154, 4, 4);
+} */
+/* .wrapper .icon-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+.wrapper .icon-close:hover {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-box h2{
